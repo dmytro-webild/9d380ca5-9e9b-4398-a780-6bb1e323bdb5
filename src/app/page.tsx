@@ -48,7 +48,7 @@ export default function LandingPage() {
           title="Zubní ordinace Terident"
           description="Jsme menší stomatologické centrum zaměřené na individuální přístup a stabilitu kolektivu. Neustálé zdokonalování technologií a vědomostí spolu s vysokou kvalitou ošetření je u nás samozřejmostí. Přijímáme nové pacienty."
           tag="Brno – Židenice"
-          imageSrc="http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg?_wi=1"
           imageAlt="Moderní ordinace Terident"
           textPosition="bottom-left"
           showBlur={true}
@@ -72,7 +72,7 @@ export default function LandingPage() {
             {
               id: "1",              title: "Ošetření kořenových kanálků mikroskopem",              description: "Operační mikroskop umožňuje ošetřit i těžko viditelná místa a být šetrnější k tvrdým zubním tkáním. Přesnost a bezpečnost na nejvyšší úrovni.",              reverse: false,
               media: {
-                imageSrc: "http://img.b2bpic.net/free-photo/young-female-dentist-treating-patients-teeth-with-dental-microscope-dentistry-concept_169016-67238.jpg",                imageAlt: "Operační mikroskop pro endodontické ošetření"
+                imageSrc: "http://img.b2bpic.net/free-photo/young-female-dentist-treating-patients-teeth-with-dental-microscope-dentistry-concept_169016-67238.jpg?_wi=1",                imageAlt: "Operační mikroskop pro endodontické ošetření"
               },
               items: [
                 { icon: Microscope, text: "Přesné vidění minimálního pole" },
@@ -83,7 +83,7 @@ export default function LandingPage() {
             {
               id: "2",              title: "Bezbolestná dentální hygiena",              description: "Odstranění zubního kamene a pískování již nemusí být bolestivé díky ultrazvuku s jemnými vibracemi. Máme dva přístroje Master pro maximální komfort.",              reverse: true,
               media: {
-                imageSrc: "http://img.b2bpic.net/free-photo/patient-receiving-dental-treatment_107420-65438.jpg",                imageAlt: "Dentální hygiena s ultrazvukem"
+                imageSrc: "http://img.b2bpic.net/free-photo/patient-receiving-dental-treatment_107420-65438.jpg?_wi=1",                imageAlt: "Dentální hygiena s ultrazvukem"
               },
               items: [
                 { icon: Zap, text: "Jemné vibrace bez bolesti" },
@@ -133,10 +133,10 @@ export default function LandingPage() {
               id: "1",              name: "MUDr. et MDDr. Novomestský",              role: "Vedoucí lékař, stomatolog",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-patient-man-looking-into-camera-waiting-doctors-start-stomatology-surgery-sitting-dental-chair_482257-4877.jpg"
             },
             {
-              id: "2",              name: "MDDr. Kudlíková",              role: "Stomatolog",              imageSrc: "http://img.b2bpic.net/free-photo/smiley-nurse-with-stethoscope_23-2148740054.jpg"
+              id: "2",              name: "MDDr. Kudlíková",              role: "Stomatolog",              imageSrc: "http://img.b2bpic.net/free-photo/smiley-nurse-with-stethoscope_23-2148740054.jpg?_wi=1"
             },
             {
-              id: "3",              name: "MDDr. Pšejová",              role: "Stomatolog",              imageSrc: "http://img.b2bpic.net/free-photo/smiley-nurse-with-stethoscope_23-2148740054.jpg"
+              id: "3",              name: "MDDr. Pšejová",              role: "Stomatolog",              imageSrc: "http://img.b2bpic.net/free-photo/smiley-nurse-with-stethoscope_23-2148740054.jpg?_wi=2"
             },
             {
               id: "4",              name: "Dentální hygienistka",              role: "Dentální hygiena a prevence",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-young-dentist-dentist-s-clinic_329181-20753.jpg"
@@ -155,15 +155,15 @@ export default function LandingPage() {
           useInvertedBackground={true}
           plans={[
             {
-              id: "consultation",              title: "Konzultační vyšetření",              price: "1 800",              period: "Kč",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",              features: ["Komplexní zhodnocení stavu"],
+              id: "consultation",              title: "Konzultační vyšetření",              price: "1 800",              period: "Kč",              imageSrc: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg?_wi=2",              features: ["Komplexní zhodnocení stavu"],
               button: { text: "Objednat si termín", href: "#contact" }
             },
             {
-              id: "sanace",              title: "Sanace (léčení zubů)",              price: "3 000 - 5 000",              period: "Kč",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-dentist-treating-patients-teeth-with-dental-microscope-dentistry-concept_169016-67238.jpg",              features: ["Dle rozsahu zákroku"],
+              id: "sanace",              title: "Sanace (léčení zubů)",              price: "3 000 - 5 000",              period: "Kč",              imageSrc: "http://img.b2bpic.net/free-photo/young-female-dentist-treating-patients-teeth-with-dental-microscope-dentistry-concept_169016-67238.jpg?_wi=2",              features: ["Dle rozsahu zákroku"],
               button: { text: "Objednat si termín", href: "#contact" }
             },
             {
-              id: "extraction",              title: "Extrakce (vytržení zubu)",              price: "1 000 - 2 000",              period: "Kč",              imageSrc: "http://img.b2bpic.net/free-photo/patient-receiving-dental-treatment_107420-65438.jpg",              features: ["Dle složitosti postupu"],
+              id: "extraction",              title: "Extrakce (vytržení zubu)",              price: "1 000 - 2 000",              period: "Kč",              imageSrc: "http://img.b2bpic.net/free-photo/patient-receiving-dental-treatment_107420-65438.jpg?_wi=2",              features: ["Dle složitosti postupu"],
               button: { text: "Objednat si termín", href: "#contact" }
             }
           ]}
@@ -185,11 +185,11 @@ export default function LandingPage() {
             },
             {
               id: "prevention",              category: ["Prevence"],
-              title: "Preventivní péče",              excerpt: "Doporučujeme preventivní kontroly 2× ročně. Pro děti první prohlídka po prvním zubě, přibližně v 1 roce věku.",              imageSrc: "http://img.b2bpic.net/free-photo/two-cutie-little-baby-girls-dentist-chair-children-dental_627829-9361.jpg",              authorName: "Terident",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",              date: "Celoživotně"
+              title: "Preventivní péče",              excerpt: "Doporučujeme preventivní kontroly 2× ročně. Pro děti první prohlídka po prvním zubě, přibližně v 1 roce věku.",              imageSrc: "http://img.b2bpic.net/free-photo/two-cutie-little-baby-girls-dentist-chair-children-dental_627829-9361.jpg?_wi=1",              authorName: "Terident",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",              date: "Celoživotně"
             },
             {
               id: "children-care",              category: ["Péče o děti"],
-              title: "Ošetřování dětských pacientů",              excerpt: "Konzultace a ošetření dětí s individuálním přístupem. Cílem je zvládnout zákrok bez celkové narkózy klidným vedením a vysvětlením kroků.",              imageSrc: "http://img.b2bpic.net/free-photo/two-cutie-little-baby-girls-dentist-chair-children-dental_627829-9361.jpg",              authorName: "Terident",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",              date: "Pro děti"
+              title: "Ošetřování dětských pacientů",              excerpt: "Konzultace a ošetření dětí s individuálním přístupem. Cílem je zvládnout zákrok bez celkové narkózy klidným vedením a vysvětlením kroků.",              imageSrc: "http://img.b2bpic.net/free-photo/two-cutie-little-baby-girls-dentist-chair-children-dental_627829-9361.jpg?_wi=2",              authorName: "Terident",              authorAvatar: "http://img.b2bpic.net/free-photo/beautiful-spacious-office-dentist_8353-9976.jpg",              date: "Pro děti"
             }
           ]}
         />
@@ -206,7 +206,7 @@ export default function LandingPage() {
           testimonials={[
             {
               id: "1",              name: "Jana Dvořáková",              role: "Pacientka",              company: "Brno",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg?_wi=1"
             },
             {
               id: "2",              name: "Petr Novotný",              role: "Pacient",              company: "Židenice",              rating: 5,
@@ -214,7 +214,7 @@ export default function LandingPage() {
             },
             {
               id: "3",              name: "Marie Svobodová",              role: "Pacientka",              company: "Brno",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg?_wi=2"
             },
             {
               id: "4",              name: "Josef Horák",              role: "Pacient",              company: "Brno",              rating: 5,
@@ -222,11 +222,11 @@ export default function LandingPage() {
             },
             {
               id: "5",              name: "Lucie Křížová",              role: "Pacientka",              company: "Židenice",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg?_wi=3"
             },
             {
               id: "6",              name: "David Kučera",              role: "Pacient",              company: "Brno",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg"
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-african-american-doctor-nursing-home_637285-11403.jpg?_wi=4"
             }
           ]}
           kpiItems={[
