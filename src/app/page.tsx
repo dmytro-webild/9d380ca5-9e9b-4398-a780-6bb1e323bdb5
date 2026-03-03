@@ -70,7 +70,7 @@ export default function LandingPage() {
           useInvertedBackground={false}
           features={[
             {
-              id: "1",              title: "Ošetření kořenových kanálků mikroskopem",              description: "Operační mikroskop umožňuje ošetřit i těžko viditelná místa a být šetrnější k tvrdým zubním tkáním. Přesnost a bezpečnost na nejvyšší úrovni.",              reverse: false,
+              id: "1",              title: "Bezbolestné ošetření kořenových kanálků",              description: "Operační mikroskop umožňuje ošetřit i těžko viditelná místa a být šetrnější k tvrdým zubním tkáním. Přesnost a bezpečnost na nejvyšší úrovni.",              reverse: false,
               media: {
                 imageSrc: "http://img.b2bpic.net/free-photo/young-female-dentist-treating-patients-teeth-with-dental-microscope-dentistry-concept_169016-67238.jpg?_wi=1",                imageAlt: "Operační mikroskop pro endodontické ošetření"
               },
@@ -92,7 +92,7 @@ export default function LandingPage() {
               ]
             },
             {
-              id: "3",              title: "Moderní 3D sken místo otisků",              description: "Moderní technologie 3D sken eliminuje potřebu nepříjemných otisků a zvyšuje komfort pro pacienta. Přesná digitální data pro lepší výsledky.",              reverse: false,
+              id: "3",              title: "Přesné digitální snímání bez nepříjemných otisků",              description: "Moderní technologie 3D sken eliminuje potřebu nepříjemných otisků a zvyšuje komfort pro pacienta. Přesná digitální data pro lepší výsledky.",              reverse: false,
               media: {
                 imageSrc: "http://img.b2bpic.net/free-photo/dentist-doctor-patient-looking-digital-teeh-x-ray-dental-office-person-pov-stomatology-wearing-protective-face-mask-gloves-pointing-teeth-radiography-stomatological-clinic_482257-13097.jpg",                imageAlt: "3D skenovací technologie"
               },
